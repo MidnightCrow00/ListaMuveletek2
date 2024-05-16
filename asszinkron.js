@@ -10,3 +10,9 @@ export function postAdat(vegpont,adat) {
     .then(data => console.log(data))
     .catch((error)=>console.log(error));
 }
+export function deleteAdat(vegpont,id) {
+    fetch(vegpont+"/"+id,{method: "DELETE"})
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch((error)=>console.log(error));
+}
