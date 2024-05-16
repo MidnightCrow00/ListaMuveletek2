@@ -1,0 +1,28 @@
+{
+  "emberekLista": [
+    {
+      "nev": "Jenő",
+      "kor": 23,
+      "nem": true,
+      "id": "a718"
+    },
+    {
+      "nev": "Jakab",
+      "kor": 43,
+      "nem": true,
+      "id": "1de0"
+    },
+    {
+      "nev": "Mária",
+      "kor": 63,
+      "nem": false,
+      "id": "ab4f"
+    },
+    {
+      "id": "79ef",
+      "nev": "HUgo",
+      "kor": "45",
+      "nem": false
+    }
+  ]
+}
