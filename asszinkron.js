@@ -9,8 +9,6 @@ export function postAdat(vegpont,adat) {
     .then(response => response.json())
     .then(data => console.log(data))
     .catch((error)=>console.log(error));
-<<<<<<< HEAD
-=======
 }
 export function deleteAdat(vegpont,id) {
     fetch(vegpont+"/"+id,{method: "DELETE"})
@@ -23,5 +21,4 @@ export function putAdat(vegpont,id,adat) {
     .then(response => response.json())
     .then(data => console.log(data))
     .catch((error)=>console.log(error));
->>>>>>> 47f1c74 (put)
 }
